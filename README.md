@@ -51,13 +51,15 @@ To get a local copy up and running follow these simple steps.
 
 For development, you can run the front-end and back-end servers separately for a better debugging experience.
 
-- To start the front-end server:
+- To start the front-end server, navigate to the frontend directory and run:
   ```sh
-  npm run start:frontend
+  cd frontend
+  npm run dev
   ```
-- To start the back-end server:
+- To start the back-end server, navigate to the backend directory and run:
   ```sh
-  npm run start:backend
+  cd backend
+  npm run dev
   ```
 
 ## Contributing
